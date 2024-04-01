@@ -1,0 +1,14 @@
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Zoo;
+
+public class Animal
+{
+    public Animal(string name) 
+    { 
+        this.Name = name;
+    }
+    public string Name { get; set; }
+
+
+}
